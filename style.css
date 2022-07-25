@@ -1,0 +1,62 @@
+* {
+    background-color: rgb(156, 131, 95);
+}
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+}
+
+h1 {
+    color: rgb(249, 178, 61);
+    margin-top: 30px;
+}
+
+.game-container {
+    width: 600px;
+    height: 600px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.player-container {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.computer-container {
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+img {
+    width: 80px;
+    margin: 0 20px;
+    border: 3px transparent;
+    border-radius: 10px;
+}
+
+#reset {
+    width: 60px;
+    cursor: pointer;
+    float: bottom;
+}
+
+h3 {
+    color: white;
+}
+
+p{
+    color: red;
+    font-size: 100PX;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.selected{
+    background: #c4c4c4;
+}

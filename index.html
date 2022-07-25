@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSP GAME</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img src="assets/icon.png" height="90px" width="90px">
+    <h1>ROCK SCISSORS PAPER</h1>
+
+    <div class="game-container">
+
+        <div class="player-container" id="player">
+            <h2>
+                PLAYER 1 <span id="playerScore"></span>
+            </h2>
+            <img src="assets/batu.png" id="playerBatu" onclick="select('Batu')">
+            <img src="assets/kertas.png" id="playerKertas" onclick="select('Kertas')">
+            <img src="assets/gunting.png" id="playerGunting" onclick="select('Gunting')">
+
+        </div>
+
+
+        <div class="computer-container" id="computer">
+            <h2>
+                COM <span id="computerScore"></span>
+            </h2>
+            <img src="assets/batu.png" id="computerBatu">
+            <img src="assets/kertas.png" id="computerKertas">
+            <img src="assets/gunting.png" id="computerGunting">
+        </div>
+
+        
+        <div class="result-container">
+            <h3 id="resultText">
+                <p>VS</p>
+            </h3>
+        </div>
+
+        <img src="assets/refresh.png" id="reset" onclick="location.reload()">
+
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
